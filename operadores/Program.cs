@@ -24,3 +24,24 @@ Console.WriteLine(z -= 1);
 Console.WriteLine(z *= 1);
 Console.WriteLine(z /= 1);
 Console.WriteLine(z %= 1);
+
+// Operadores relacionais
+
+int a = 7;
+int b = 8;
+
+Console.WriteLine(a > b);
+Console.WriteLine(a >= b);
+Console.WriteLine(a < b);
+Console.WriteLine(a <= b);
+Console.WriteLine(a == b);
+Console.WriteLine(a != b);
+
+Console.WriteLine(false && true);
+Console.WriteLine(true && true);
+Console.WriteLine(false && false);
+
+
+Console.WriteLine(false || true);
+Console.WriteLine(true || true);
+Console.WriteLine(false || false);
