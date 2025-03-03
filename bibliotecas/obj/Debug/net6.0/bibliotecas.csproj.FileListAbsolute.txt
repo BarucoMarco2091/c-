@@ -1,0 +1,15 @@
+C:\Users\part\Documents\c#var\bibliotecas\bin\Debug\net6.0\bibliotecas.exe
+C:\Users\part\Documents\c#var\bibliotecas\bin\Debug\net6.0\bibliotecas.deps.json
+C:\Users\part\Documents\c#var\bibliotecas\bin\Debug\net6.0\bibliotecas.runtimeconfig.json
+C:\Users\part\Documents\c#var\bibliotecas\bin\Debug\net6.0\bibliotecas.dll
+C:\Users\part\Documents\c#var\bibliotecas\bin\Debug\net6.0\bibliotecas.pdb
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.csproj.AssemblyReference.cache
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.AssemblyInfoInputs.cache
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.AssemblyInfo.cs
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.csproj.CoreCompileInputs.cache
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.dll
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\refint\bibliotecas.dll
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.pdb
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\bibliotecas.genruntimeconfig.cache
+C:\Users\part\Documents\c#var\bibliotecas\obj\Debug\net6.0\ref\bibliotecas.dll
