@@ -43,11 +43,11 @@
 //int modulo;
 //if (numero >= 0)
 //{
-    //modulo = numero;
-    //Console.WriteLine(modulo);
+//modulo = numero;
+//Console.WriteLine(modulo);
 //} else {
-    //modulo = numero * (-1);
-    //Console.WriteLine(modulo);
+//modulo = numero * (-1);
+//Console.WriteLine(modulo);
 //}
 
 // 2
@@ -58,10 +58,10 @@
 
 //if(numeroMaior > numeroMenor)
 //{
-    //diferenca = numeroMaior - numeroMenor;
-    //Console.WriteLine(diferenca);
+//diferenca = numeroMaior - numeroMenor;
+//Console.WriteLine(diferenca);
 //} else {
-    //Console.WriteLine("operação inválida");
+//Console.WriteLine("operação inválida");
 //}
 
 // 3
@@ -73,9 +73,9 @@
 
 //media = (nota1 + nota2 + nota3 + nota4) / 4;
 //if(media >= 7) {
-    //Console.WriteLine("Aprovado");
+//Console.WriteLine("Aprovado");
 //} else {
-    //Console.WriteLine("Reprovado");
+//Console.WriteLine("Reprovado");
 //}
 
 // 4 
@@ -84,13 +84,13 @@
 //int numeroSegundo = Int32.Parse(Console.ReadLine());
 //if(numeroPrimeiro > numeroSegundo)
 //{
-    //Console.WriteLine(numeroPrimeiro);
+//Console.WriteLine(numeroPrimeiro);
 //} else {
-    //Console.WriteLine(numeroSegundo);
+//Console.WriteLine(numeroSegundo);
 //}
 //if(numeroPrimeiro == numeroSegundo)
 //{
-    //Console.WriteLine("os numeros são iguais");
+//Console.WriteLine("os numeros são iguais");
 //}
 
 // Estrutura de repetição 
@@ -99,34 +99,89 @@
 //int i = 0;
 //while(i <= 100)
 //{
-    //i = i + 1;
-    //Console.WriteLine(i);
+//i = i + 1;
+//Console.WriteLine(i);
 //}
 
 // 2 
 //int j = 100;
 //while(j <= 200) {
-    //j = j + 1;
-    //if(j % 2 == 0) {
-        //Console.WriteLine(j);
-    //}
+//j = j + 1;
+//if(j % 2 == 0) {
+//Console.WriteLine(j);
+//}
 //}
 
 // 3
 //int j = 100;
 //while(j <= 200) {
-    //j = j + 1;
-    //if(j % 2 != 0) {
-        //Console.WriteLine(j);
-   //}
+//j = j + 1;
+//if(j % 2 != 0) {
+//Console.WriteLine(j);
+//}
 //}
 
 // 4
-int i = 0;
-int numero = Int32.Parse(Console.ReadLine());
-int tabuada;
-while(i < 11) {
-    tabuada = numero * (i);
-    i = i + 1;
-    Console.WriteLine(tabuada);
-}
+//int i = 0;
+//int numero = Int32.Parse(Console.ReadLine());
+//int tabuada;
+//while(i < 11) {
+//tabuada = numero * (i);
+//i = i + 1;
+//Console.WriteLine(tabuada);
+//}
+
+// Funções
+//class Program 
+//{
+//static void Main(string[] args)
+//{
+// ImprimirNome("Claudia");
+//}
+
+//static void ImprimirNome(string nome)
+//{
+//Console.WriteLine(nome);
+//}
+//}
+
+// 1
+
+//class Program
+//{
+    //static void Main()
+    //{
+        //float salarioAtualizado = REAJUSTE();
+        //Console.WriteLine($"Salário atualizado: {salarioAtualizado}");
+    //}
+
+    //static float REAJUSTE()
+    //{
+        //int salario = Int32.Parse(Console.ReadLine());
+        //float reajuste = float.Parse(Console.ReadLine());
+        //float salarioAtualizado;
+        //salarioAtualizado = salario + (salario * (reajuste / 100));
+        //return salarioAtualizado;
+
+    //}
+//}
+
+// 2
+
+class Program 
+    {
+        static void Main()
+        {
+            float area = areaTriangulo();
+            Console.WriteLine($"area: {area}");
+        }
+
+        static float areaTriangulo()
+        {
+            int baseTriangulo = Int32.Parse(Console.ReadLine());
+            int altura = Int32.Parse(Console.ReadLine());
+            float area;
+            area = (baseTriangulo * altura) / 2;
+            return area;
+        }
+    }
