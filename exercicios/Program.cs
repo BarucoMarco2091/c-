@@ -168,20 +168,42 @@
 
 // 2
 
-class Program 
-    {
-        static void Main()
-        {
-            float area = areaTriangulo();
-            Console.WriteLine($"area: {area}");
-        }
+//class Program 
+    //{
+        //static void Main()
+        //{
+            //float area = areaTriangulo();
+            //Console.WriteLine($"area: {area}");
+        //}
 
-        static float areaTriangulo()
+        //static float areaTriangulo()
+        //{
+            //int baseTriangulo = Int32.Parse(Console.ReadLine());
+            //int altura = Int32.Parse(Console.ReadLine());
+            //float area;
+            //area = (baseTriangulo * altura) / 2;
+            //return area;
+        //}
+    //}
+
+// 3
+
+class Program
+{
+    static void Main()
+    {
+        string numero = parOuImpar();
+        Console.WriteLine($"numero: {numero}");
+    }
+
+    static string parOuImpar()
+    {
+        int numero = Int32.Parse(Console.ReadLine());
+        if(numero % 2 == 0)
         {
-            int baseTriangulo = Int32.Parse(Console.ReadLine());
-            int altura = Int32.Parse(Console.ReadLine());
-            float area;
-            area = (baseTriangulo * altura) / 2;
-            return area;
+            return "par"; // usando aspas duplas para strings
+        } else {
+            return "impar"; // usando aspas duplas para strings
         }
     }
+}
